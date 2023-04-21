@@ -1,0 +1,82 @@
+html{
+    height: 100%
+}
+body{
+    height: 100;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: gray;
+    background-image: url('https://background-tiles.com/overview/white/textures/large/5008.png');
+    background-size: cover;
+    background-repeat: repeat;
+    color: black
+}
+img{ 
+    display: block;
+    border: 5px dotted darkblue;
+    padding: 5px;
+    margin: auto;
+}
+a{
+    color: darkblue;
+}
+a:visited{
+    color: blueviolet;
+}
+li{
+    font-style: italic;
+}
+li:hover{
+    font-size:120%;
+    text-decoration: underline;
+    background-color: lightpink;
+}
+.common{
+    position: absolute;
+}
+.nav{
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.footer{
+    position: fixed;
+    background-color: black;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    text-align: center;
+}
+.content{
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.gallery img{
+    width: 300px;
+    display: inline;
+}
+.page-content h1{
+    font-size: 24px;
+    color: black;
+}
+.page-content p{
+    font-size: 16px;
+    color: gray;
+}
+.favorites-list{
+    font-size: 20px;
+    color: black;
+    list-style-type: decimal;
+}
+.favorites-list ul{
+    list-style-type: disc;
+    margin-left: 20px;
+}
+.favorites-list li{
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
